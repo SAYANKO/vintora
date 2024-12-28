@@ -44,11 +44,35 @@
         </ul>
       </nav>
       <div class="pxtext">
-        <span class="border">
-          Nike Air Jordan
+        <span class="border cascaded-text">
+          Stylish Past, Sustainable Future.
         </span>
         <p><a href="HTML/men.html">Shop Now</a></p>
       </div>
+      
+      <style>
+        .cascaded-text {
+          display: inline-block;
+          overflow: hidden;
+          white-space: nowrap;
+          animation: cascade 3s steps(30) infinite;
+          font-size: 1.5em; /* Adjust size as needed */
+          font-weight: bold;
+        }
+      
+        @keyframes cascade {
+          0% {
+            width: 0;
+          }
+          50% {
+            width: 100%;
+          }
+          100% {
+            width: 0;
+          }
+        }
+      </style>
+      
     </header>
     <section>
       <div
