@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/x-icon" href="../Images/img-DS.png" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Contact us</title>
+    <title>Nike</title>
+    <link rel="stylesheet" href="../css/info.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/preloader.css" />
     <link
       rel="stylesheet"
@@ -20,50 +20,32 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="../js/preloader.js"></script>
+    <link rel="stylesheet" href="../css/navbar.css" />
   </head>
-  <style>
-    section {
-      margin: 0% 20%;
-      height: 100%;
-      font-family: "Montserrat";
-    }
-    
-    nav {
-      position: relative;
-    }
-    
-    iframe {
-      width: 100%;
-      height: 800px;
-      border: none;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-  </style>
+
   <body>
     <div class="se-pre-con"></div>
-    <nav>
-      <ul>
-        <li class="primary-nav">
-          <img src="../Images/img-DS.png" alt="logo" />
-          <a href="../index.html">VINTORA SHOP</a>
-        </li>
-        <li class="secondary-nav"><a href="../HTML/orders.html">ORDERS</a></li>
-        <li class="secondary-nav"><a href="../HTML/women.html">WOMEN</a></li>
-        <li class="secondary-nav"><a href="../HTML/men.html">MEN</a></li>
-        <li class="secondary-nav"><a href="../HTML/about-us.html">ABOUT US</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+          <li class="primary-nav">
+            <img src="../Images/img-DS.png" alt="logo" />
+            <a href="../index.html">VINTORA SHOP</a>
+            
+          <li class="secondary-nav"><a href="../HTML/women.html">WOMEN</a></li>
+          <li class="secondary-nav"><a href="../HTML/men.html">MEN</a></li>
+          <li class="secondary-nav"><a href="../HTML/about-us.html">ABOUT US</a>
+            
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <section>
-      <h1></h1>
-      <span>
-        <img src="../Images/img-DS.png" alt="Downy logo" height="50px" />
-        VINTORA SHOP
-      </span>
-      <hr />
-      <br />
-      <!-- Embed the Google Form -->
-      <iframe
-          src="https://forms.gle/Bn2aFW6sdLu2KnU56"
+      <div class="form-embed" style="text-align: center; margin: 50px 0;">
+        <h1>Vintora Order Form</h1>
+        <iframe
+          src="https://forms.gle/c5j879qbDtfLYJqy6"
           width="100%"
           height="2211"
           frameborder="0"
@@ -73,6 +55,7 @@
           allowfullscreen
         >
         </iframe>
+      </div>
     </section>
   </body>
 </html>
